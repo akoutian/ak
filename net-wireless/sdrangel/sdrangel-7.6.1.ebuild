@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="SDR Rx/Tx software for Airspy, Airspy HF+, BladeRF, HackRF,
+DESCRIPTION="SDR Rx/Tx software for Airspy, Airspy HF+, BladeRF, HackRF,\
 LimeSDR, PlutoSDR, RTL-SDR, SDRplay RSP1 and FunCube"
 HOMEPAGE="https://www.sdrangel.org/"
 SRC_URI="https://github.com/f4exb/sdrangel/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"

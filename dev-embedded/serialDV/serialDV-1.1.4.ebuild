@@ -5,8 +5,8 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="C++ Minimal interface to encode and decode audio with AMBE3000
-based devices in packet mode over a serial link."
+DESCRIPTION="C++ Minimal interface to encode and decode audio with AMBE3000\
+based devices in packet mode over a serial link"
 HOMEPAGE="https://github.com/f4exb/serialDV"
 SRC_URI="https://github.com/f4exb/serialDV/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 

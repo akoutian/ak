@@ -1,0 +1,12 @@
+diff --git a/unit_test/data.h b/unit_test/data.h
+index 3f21ddf..dc2cc24 100644
+--- a/unit_test/data.h
++++ b/unit_test/data.h
+@@ -30,6 +30,7 @@
+ #define UNIT_TEST_DATA_H_
+ 
+ #include <string.h>
++#include <cstdint>
+ 
+ #pragma pack(push, 1)
+     struct Sample

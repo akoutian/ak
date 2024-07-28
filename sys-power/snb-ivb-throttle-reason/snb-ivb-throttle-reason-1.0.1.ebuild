@@ -11,6 +11,8 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RDEPEND="sys-libs/ncurses sys-apps/iotools"
+
 src_install() {
 		dodir /usr/bin
     cp "${S}/${PN}" "${D}/usr/bin"
